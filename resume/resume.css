@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+body{
+    margin: 0 0 0 0;
+    font-family: 'Geologica', sans-serif;
+    font-size: 2.3vh;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  header > h1{
+    color: antiquewhite;
+  }
+  header > p {
+    
+    font-weight: 600;
+    color: aqua;
+  }
+  
+  section {
+    max-width: 700px;
+    margin-left: 4vw;
+    margin: 20px auto;
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  body > section.skills {
+    margin: unset;
+    float: right;
+    
+    margin-right: 1vw;
+
+    max-height: 70vh;
+    margin-top: 25px;
+    margin-bottom: 4px;
+    max-width: 40vw;
+  }
+  body > section.experience {
+    margin: unset;
+    float: right;
+    float: top;
+    margin-right: 1vw;
+margin-top: 0px;
+margin-bottom: 30px;
+    max-height: 70vh;
+    
+    max-width: 40vw;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills div {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
